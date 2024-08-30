@@ -1,0 +1,27 @@
+Para crar el entorno virtual: python -m venv venv
+
+Para activarlo: source venv/Scripts/activate
+
+para descargar reflex: pip install reflex
+
+Para crear el proyecto: reflex init
+
+Para correr el proyecto: reflex run 
+
+Para actualizar reflex: pip install --upgrade reflex
+
+Para loguearme en el Hosting de reflex: reflex login
+
+Para desplegar la pagina: reflex deploy
+
+Para bajar la pagina: reflex deployments delete "nombre de la pagina"
+
+
+
+
+
+# Paginas web
+
+Iconos: https://fontawesome.com/icons
+Estilos de texto: https://fontmeme.com/es/estilos/
+Fuentes de texto: google fonts
