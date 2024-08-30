@@ -25,7 +25,9 @@ def body() -> rx.Component:
             spacing=Size.SMALL.value,
             align_items="center",
             justify_content="center",  # Asegura que el contenido del hstack esté centrado
-            width="100%"  # Ajusta el ancho del hstack
+            width="100%",  # Ajusta el ancho del hstack
+            border_radius="10px",
+            padding=Size.DEFAULT.value
         ),
         rx.hstack(
             rx.vstack(
@@ -50,7 +52,9 @@ def body() -> rx.Component:
             spacing=Size.BIG.value,
             align_items="center",
             justify_content="center",  # Asegura que el contenido del hstack esté centrado
-            width="100%"  # Ajusta el ancho del hstack
+            width="100%",  # Ajusta el ancho del hstack
+            border_radius="10px",
+            padding=Size.DEFAULT.value
         ),
         rx.hstack(
             rx.image(
@@ -68,12 +72,15 @@ def body() -> rx.Component:
             spacing=Size.SMALL.value,
             align_items="center",
             justify_content="center",  # Asegura que el contenido del hstack esté centrado
-            width="100%"  # Ajusta el ancho del hstack
+            width="100%",  # Ajusta el ancho del hstack
+            border_radius="10px",
+            padding=Size.DEFAULT.value
         ),
         width="100%",  # Asegura que el vstack ocupe todo el ancho disponible
         margin_top=Size.SMALL.value,
         bg=Color.SECONDARY.value,
         align_items="center",  # Alinea los hstack al centro del vstack
         justify_content="center",  # Asegura que el contenido del vstack esté centrado
-        border_radius="10px"  # Redondea los bordes del vstack
+        border_radius="10px",  # Redondea los bordes del vstack
+        padding=Size.DEFAULT.value
     )

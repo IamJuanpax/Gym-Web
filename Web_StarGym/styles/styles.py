@@ -21,9 +21,10 @@ class Size(Enum):
     VERY_BIG = "4em"
 
 class Image_Size(Enum):
-    SOPONSORS = "300px"
+    SOPONSORS = "400px"
     STANDAR = "200px"
     FOOTER = "50px"
+    HEADER = "25px"
 
 
 
@@ -93,7 +94,9 @@ header_style = dict(
     bg=Color.SECONDARY.value,
     justify_content="center",
     align_items="center",
-    text_align="center"
+    text_align="center",
+    padding=Size.DEFAULT.value,
+    border_radius="10px"
 )
 
 link_button_style = dict(
