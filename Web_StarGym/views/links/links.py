@@ -3,6 +3,7 @@ from Web_StarGym.components.link_button import link_button
 from Web_StarGym.components.title import start_title, center_title, end_title
 from Web_StarGym.styles.colors import Color
 from Web_StarGym.styles.styles import Size
+from Web_StarGym.views import constants as cs
 
 def links() -> rx.Component:
     return rx.vstack(
@@ -14,11 +15,11 @@ def links() -> rx.Component:
             rx.hstack(
                 link_button("Instagram",
                             "icons/instagram.svg",
-                            "https://instagram.com"),
+                            cs.INSTAGRAM_URL),
 
                 link_button("Twitter",
                             "icons/twitter.svg",
-                            "https://twitter.com"),
+                            cs.TWITTER_URL),
 
                 spacing="10px",        # Espaciado entre botones
                 width="100%",
@@ -32,15 +33,15 @@ def links() -> rx.Component:
             rx.hstack(
                 link_button("Sergio Ledesma",
                             "icons/instagram.svg",
-                            "https://instagram.com"),
+                            cs.INSTAGRAM_URL),
 
                 link_button("Cesar Ledesma",
                             "icons/instagram.svg",
-                            "https://twitter.com"),
+                            cs.TWITTER_URL),
 
                 link_button("Roberto Ledesma",
                             "icons/instagram.svg",
-                            "https://twitter.com"),
+                            cs.TWITTER_URL),
 
                 spacing="10px",        # Espaciado entre botones
                 width="100%",
